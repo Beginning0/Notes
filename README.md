@@ -1,36 +1,32 @@
-# Complete Notes App With Firebase Database in Android Studio
+# Aplicación de notas completa con base de datos Firebase en Android Studio
 
 
-A very colorful To Do List. Users can enter a title and a description(optional) 
-### 👉 If you like this repo then please give it a ⭐️
+Una lista de tareas muy colorida. Los usuarios pueden ingresar un título y una descripción (opcional)
+### 👉 Si te gusta este repositorio, por favor dale un ⭐️
 
-Building Notes App In Android(Complete CRUD Application with firebase database)
+Aplicación Building Notes en Android (Aplicación CRUD completa con base de datos firebase)
 
-  - Add New Notes
-  - Update Notes
-  - Delete Notes
-## Short Description
-Created a Notes App With Firebase Database in Android Studio, Users can enter a title and a description.
+  - Agregar nuevas notas
+  - Notas de actualización
+  - Eliminar notas
+## Breve descripción
+Creó una aplicación de notas con Firebase Database en Android Studio, los usuarios pueden ingresar un título y una descripción.
 
 
      
-## NOTE:
-This project is subject to change by the developer and is still in development
+## NOTA:
+Este proyecto está sujeto a cambios por parte del desarrollador y aún está en desarrollo.
 
-## How to run this
-Running this is as simple as it gets. Follow this steps
-1. Open your Android Studio & import that project(NOTE: git bash prefered)
-2. Navigate to the project folder where you have cloned this repo.
-3. Open an emulator or plug in a real device
-4. Run the app
+## Cómo ejecutar esto
+Ejecutar esto es tan simple como parece. Sigue estos pasos
+1. Abra su Android Studio e importe ese proyecto (NOTA: se prefiere git bash)
+2. Navegue a la carpeta del proyecto donde ha clonado este repositorio.
+3. Abra un emulador o conecte un dispositivo real
+4. Ejecute la aplicación
      
-## Pull Request
+## Solicitud de extracción
 
-Pull Requests are welcome. Please follow these rules for the ease of understanding:
-* Make sure to check for available issues before raising one
-* Give me a maximum of 24-48 hours to respond
-* Have proper documentation on the parts you are changing/adding
-
-#### Feel free to contribute
-
-
+Las solicitudes de extracción son bienvenidas. Siga estas reglas para facilitar la comprensión:
+* Asegúrese de verificar los problemas disponibles antes de plantear uno
+* Dame un máximo de 24-48 horas para responder
+* Tenga la documentación adecuada sobre las partes que está cambiando / agregando
