@@ -16,8 +16,13 @@
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
-
-        <EditText
+        <ImageView
+            android:layout_margin="15dp"
+            android:src="@drawable/rjha"
+            android:layout_gravity="center"
+            android:layout_width="100dp"
+            android:layout_height="100dp" />
+   <EditText
        android:textColor="@android:color/white"
        android:textColorHint="@android:color/white"
        android:hint="Title"

@@ -1,32 +1,65 @@
-# Aplicación de notas completa con base de datos Firebase en Android Studio
+# Complete Notes App With Firebase Database in Android Studio
 
 
-Una lista de tareas muy colorida. Los usuarios pueden ingresar un título y una descripción (opcional)
-### 👉 Si te gusta este repositorio, por favor dale un ⭐️
+A very colorful To Do List. Users can enter a title and a description(optional) 
+### 👉 If you like this repo then please give it a ⭐️
 
-Aplicación Building Notes en Android (Aplicación CRUD completa con base de datos firebase)
+Building Notes App In Android(Complete CRUD Application with firebase database)
 
-  - Agregar nuevas notas
-  - Notas de actualización
-  - Eliminar notas
-## Breve descripción
-Creó una aplicación de notas con Firebase Database en Android Studio, los usuarios pueden ingresar un título y una descripción.
+  - Add New Notes
+  - Update Notes
+  - Delete Notes
+## Short Description
+Created a Notes App With Firebase Database in Android Studio, Users can enter a title and a description.
 
-
+## Screenshots
+<img src="/screenshot/1.jpeg"
+     alt="Home Screen"
+     style="float: left; margin-right: 10px;"
+     width="200"/>  <img src="/screenshot/2.jpeg"
+     alt="Home Screen"
+     style="float: left; margin-right: 10px;"
+     width="200"/> <img src="/screenshot/3.jpeg"
+     alt="Home Screen"
+     style="float: left; margin-right: 10px;"
+     width="200"/> 
      
-## NOTA:
-Este proyecto está sujeto a cambios por parte del desarrollador y aún está en desarrollo.
+## NOTE:
+This project is subject to change by the developer and is still in development
 
-## Cómo ejecutar esto
-Ejecutar esto es tan simple como parece. Sigue estos pasos
-1. Abra su Android Studio e importe ese proyecto (NOTA: se prefiere git bash)
-2. Navegue a la carpeta del proyecto donde ha clonado este repositorio.
-3. Abra un emulador o conecte un dispositivo real
-4. Ejecute la aplicación
+## How to run this
+Running this is as simple as it gets. Follow this steps
+1. Open your Android Studio & import that project(NOTE: git bash prefered)
+2. Navigate to the project folder where you have cloned this repo.
+3. Open an emulator or plug in a real device
+4. Run the app
      
-## Solicitud de extracción
+## Pull Request
 
-Las solicitudes de extracción son bienvenidas. Siga estas reglas para facilitar la comprensión:
-* Asegúrese de verificar los problemas disponibles antes de plantear uno
-* Dame un máximo de 24-48 horas para responder
-* Tenga la documentación adecuada sobre las partes que está cambiando / agregando
+Pull Requests are welcome. Please follow these rules for the ease of understanding:
+* Make sure to check for available issues before raising one
+* Give me a maximum of 24-48 hours to respond
+* Have proper documentation on the parts you are changing/adding
+
+#### Feel free to contribute
+
+## Developed & Maintained by
+[Raushan Jha](https://github.com/raushankrjha) 
+[📷 Insta](https://www.instagram.com/dev_raushanjha/)
+[🐤 Twitter](https://twitter.com/dev_raushanjha) [![Twitter](https://img.shields.io/twitter/url/https/github.com/S-ayanide/Flutter-ToDoList.svg?style=social)](https://twitter.com/intent/tweet?text=Wow:&url=https://github.com/raushankrjha/Notes-App-With-Firebase-Database)
+
+## License 
+```Copyright 2019 Raushan Jha
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+```
