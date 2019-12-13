@@ -5,6 +5,8 @@ import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.TextUtils;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
@@ -14,6 +16,9 @@ import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
+
+import java.nio.charset.Charset;
+import java.util.Random;
 
 public class MainActivity extends AppCompatActivity {
 EditText title,desc;
@@ -30,10 +35,12 @@ private DatabaseReference mDatabase;
 
      }
 
+
     public void AddNotes(View view) {
         titlesend=title.getText().toString();
         descsend=desc.getText().toString();
         if(TextUtils.isEmpty(titlesend) || TextUtils.isEmpty(descsend)){
+            Toast.makeText(getApplicationContext(), "los Campos estan vacios", Toast.LENGTH_LONG).show();
             return;
         }
         AddNotes(titlesend,descsend);
@@ -43,7 +50,7 @@ private DatabaseReference mDatabase;
     private void AddNotes(String titlesend, String descsend)
     {
 
-        String id=mDatabase.push().getKey();
+        String id = mDatabase.push().getKey();
         Listdata listdata = new Listdata(id,titlesend, descsend);
         mDatabase.child("Notes").child(id).setValue(listdata).
                 addOnCompleteListener(new OnCompleteListener<Void>() {

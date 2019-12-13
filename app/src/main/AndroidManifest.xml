@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.todoappwithfirease">
-<uses-permission android:name="android.permission.INTERNET"/>
-    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
-    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -11,6 +13,12 @@
         android:roundIcon="@mipmap/ic_launcher"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainAbout"
+            android:label="Acerca de"
+            >
+
+        </activity>
         <activity
             android:name=".HomeScreen"
             android:label="Notes"
@@ -21,18 +29,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity"
+        <activity
+            android:name=".MainActivity"
             android:label="Agregar Notas"
-            android:parentActivityName=".HomeScreen"
-            >
-
-        </activity>
-        <activity android:name=".EditActivity"
+            android:parentActivityName=".HomeScreen"></activity>
+        <activity
+            android:name=".EditActivity"
             android:label="Editar Notas"
-            android:parentActivityName=".HomeScreen"
-            >
-
-        </activity>
+            android:parentActivityName=".HomeScreen"></activity>
     </application>
 
 </manifest>
