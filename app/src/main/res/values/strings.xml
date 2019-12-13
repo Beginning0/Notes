@@ -1,4 +1,4 @@
 <resources>
-    <string name="app_name">ToDoAppWithFirease</string>
-    <string name="title_activity_home_screen">HomeScreen</string>
+    <string name="app_name">Notes</string>
+    <string name="title_activity_home_screen">Notes</string>
 </resources>

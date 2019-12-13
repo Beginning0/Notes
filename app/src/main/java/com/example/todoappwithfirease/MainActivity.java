@@ -49,7 +49,7 @@ private DatabaseReference mDatabase;
                 addOnCompleteListener(new OnCompleteListener<Void>() {
             @Override
             public void onComplete(@NonNull Task<Void> task) {
-                Toast.makeText(MainActivity.this, "Notes Added", Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this, "Agregar Notas", Toast.LENGTH_SHORT).show();
                 startActivity(new Intent(getApplicationContext(),HomeScreen.class));
             }
         });
