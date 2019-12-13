@@ -64,7 +64,7 @@ Button updates,delete;
                 addOnCompleteListener(new OnCompleteListener<Void>() {
             @Override
             public void onComplete(@NonNull Task<Void> task) {
-                Toast.makeText(EditActivity.this, "Notes Updated", Toast.LENGTH_SHORT).show();
+                Toast.makeText(EditActivity.this, "Se actualizo la Nota", Toast.LENGTH_SHORT).show();
                 startActivity(new Intent(getApplicationContext(),HomeScreen.class));
             }
         });
@@ -76,7 +76,7 @@ Button updates,delete;
                 .addOnSuccessListener(new OnSuccessListener<Void>() {
                     @Override
                     public void onSuccess(Void aVoid) {
-                        Toast.makeText(EditActivity.this,"Note Updated",Toast.LENGTH_SHORT).show();
+                        Toast.makeText(EditActivity.this,"Se actualizo la Nota",Toast.LENGTH_SHORT).show();
                         startActivity(new Intent(getApplicationContext(),HomeScreen.class));
 
                     }

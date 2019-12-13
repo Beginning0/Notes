@@ -25,7 +25,7 @@
    <EditText
        android:textColor="@android:color/white"
        android:textColorHint="@android:color/white"
-       android:hint="Title"
+       android:hint="Titulo"
     android:layout_margin="5dp"
        android:id="@+id/title"
        android:layout_width="match_parent"
@@ -35,7 +35,7 @@
         android:textColorHint="@android:color/white"
 
         android:layout_margin="5dp"
-        android:hint="Description"
+        android:hint="Descripción"
         android:id="@+id/desc"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
@@ -46,7 +46,7 @@
         android:textStyle="bold"
         android:textColor="@android:color/white"
         android:id="@+id/updatesbutton"
-        android:text="Update Notes"
+        android:text="Actualizar Notes"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
         <Button
@@ -55,7 +55,7 @@
             android:textStyle="bold"
             android:textColor="@android:color/white"
             android:id="@+id/deletedbutton"
-            android:text="Delete Notes"
+            android:text="Eliminar Notes"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 

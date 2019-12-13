@@ -22,34 +22,36 @@
             android:layout_gravity="center"
             android:layout_width="100dp"
             android:layout_height="100dp" />
-   <EditText
-       android:textColor="@android:color/white"
-       android:textColorHint="@android:color/white"
-       android:hint="Title"
-    android:layout_margin="5dp"
-       android:id="@+id/title"
-       android:layout_width="match_parent"
-       android:layout_height="wrap_content" />
-    <EditText
-        android:textColor="@android:color/white"
-        android:textColorHint="@android:color/white"
 
-        android:layout_margin="5dp"
-        android:hint="Description"
-        android:id="@+id/desc"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:hint="Titulo"
+            android:textColor="@android:color/white"
+            android:textColorHint="@android:color/white" />
 
-    <Button
-        android:background="@android:color/holo_red_light"
-        android:layout_margin="15dp"
-        android:textStyle="bold"
-        android:textColor="@android:color/white"
-        android:onClick="AddNotes"
-        android:id="@+id/addnotes"
-        android:text="Save"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/desc"
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:hint="Descripción"
+            android:textColor="@android:color/white"
+            android:textColorHint="@android:color/white" />
+
+        <Button
+            android:id="@+id/addnotes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:background="@android:color/holo_red_light"
+            android:onClick="AddNotes"
+            android:text="Guardar"
+            android:textColor="@android:color/white"
+            android:textStyle="bold" />
 
     </LinearLayout>
 </android.support.v7.widget.CardView>
